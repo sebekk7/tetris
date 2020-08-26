@@ -17,7 +17,7 @@ public class Tetris extends Application {
     private static Scene scene = new Scene(groupe, XMAX + 150, YMAX);
     private static int score = 0;
     private static boolean game = true;
-    private static Normalizer.Form nextObj = controller.makeRect();
+   // private static Normalizer.Form nextObj = controller.makeRect();
     private static int linesNo = 0;
 
     @Override
